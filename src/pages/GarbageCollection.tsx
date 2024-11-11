@@ -9,7 +9,7 @@ const GarbageCollection = () => {
   const [bookingDetails, setBookingDetails] = useState<{ area: string; slot: string } | null>(null);
 
   const availableSlots = ["08:00 AM", "10:00 AM", "12:00 PM", "02:00 PM"];
-  const areas = ["North Zone", "South Zone", "East Zone", "West Zone", "Central Park", "Market Square", "Harbor View"];
+  const areas = ["Nashik Road", "Gangapur", "CIDCO", "Dindori", "Panchavati", "Market Square", "Mhasrul"];
 
   const handleSlotBooking = () => {
     if (selectedSlot && selectedArea) {
